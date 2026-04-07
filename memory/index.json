@@ -1,0 +1,154 @@
+{
+  "version": 2,
+  "architecture": "3-layer: index → topic files → archive transcripts",
+  "redesigned": "2026-04-01",
+  "entries": [
+    {
+      "id": "me",
+      "file": "me.md",
+      "tags": ["user", "profile"],
+      "summary": "[Your Name] – [Your Role], [YourCompany], [Your City]. Reports to [Your Manager]."
+    },
+    {
+      "id": "machine-env",
+      "file": "environment/machine.md",
+      "tags": ["env", "setup"],
+      "summary": "macOS, Apple Silicon, Python 3.x, Node 24. Workspace: ~/Desktop/your-workspace/"
+    },
+    {
+      "id": "working-style",
+      "file": "preferences/working-style.md",
+      "tags": ["preferences"],
+      "summary": "Action-oriented, skills library, sales enablement content creator."
+    },
+    {
+      "id": "skills-folder",
+      "file": "preferences/skills-folder.md",
+      "tags": ["skills", "tools"],
+      "summary": "Custom skills library at ~/Desktop/your-workspace/skills/ (110+ skills)."
+    },
+    {
+      "id": "brand-voice",
+      "file": "preferences/brand-voice-guidelines.md",
+      "tags": ["brand", "voice", "writing"],
+      "summary": "Brand DNA, 5 golden rules, product naming, style guide."
+    },
+    {
+      "id": "brand-visual",
+      "file": "preferences/brand-visual-guidelines.md",
+      "tags": ["brand", "visual", "slides"],
+      "summary": "Typography, hex colors, slide layouts, logo rules."
+    },
+    {
+      "id": "computer-platform",
+      "file": "entities/computer-platform.md",
+      "tags": ["product", "technical"],
+      "summary": "AirSync, Memory, Search, Agent Studio – technical architecture."
+    },
+    {
+      "id": "computer-apps",
+      "file": "entities/computer-apps.md",
+      "tags": ["product", "apps", "use-cases"],
+      "summary": "Support/Build/Observe apps + 5 use cases (Sales, Support, CX, SDA, Ops)."
+    },
+    {
+      "id": "computer-positioning",
+      "file": "entities/computer-positioning.md",
+      "tags": ["marketing", "positioning", "competitive"],
+      "summary": "Hero messaging, competitive positioning, proof points, key phrases."
+    },
+    {
+      "id": "computer-pricing",
+      "file": "entities/computer-pricing.md",
+      "tags": ["pricing", "sales"],
+      "summary": "Mini (free) / Pro / Max tiers. Consumption-based credits."
+    },
+    {
+      "id": "case-metrics",
+      "file": "entities/case-studies-headline-metrics.md",
+      "tags": ["customers", "metrics"],
+      "summary": "Top stats: BILL $4.5M, ICICI 95% reduction, Tough Trucks 85% AI. Quick ref."
+    },
+    {
+      "id": "case-industries",
+      "file": "entities/case-studies-by-industry.md",
+      "tags": ["customers", "industry"],
+      "summary": "30 case studies by industry (FinServ 7, Tech 8, HR 4, AI 4, Other 7)."
+    },
+    {
+      "id": "case-quotes",
+      "file": "entities/case-studies-quotes.md",
+      "tags": ["customers", "quotes"],
+      "summary": "13 exec quotes by theme: trust, unification, scale, product, ops."
+    },
+    {
+      "id": "case-migrations",
+      "file": "entities/case-studies-migrations.md",
+      "tags": ["customers", "competitive", "migrations"],
+      "summary": "7 displacement stories: from Zendesk, Salesforce, HelpScout, legacy."
+    },
+    {
+      "id": "project-product",
+      "file": "entities/project-product.md",
+      "tags": ["project", "assets"],
+      "summary": "[Your Name]'s product deliverables: decks, guides, battlecards, analysis."
+    },
+    {
+      "id": "project-pipeline",
+      "file": "entities/project-pipeline-analysis.md",
+      "tags": ["project", "pipeline"],
+      "summary": "Pipeline diagnostics and opportunity blocker analysis work."
+    },
+    {
+      "id": "project-perf-review",
+      "file": "entities/project-performance-review.md",
+      "tags": ["project", "career"],
+      "summary": "Performance review & impact report."
+    },
+    {
+      "id": "person-manager",
+      "file": "entities/person-manager.md",
+      "tags": ["person", "manager"],
+      "summary": "[Your Manager] – [Your Name]'s manager at [YourCompany]."
+    },
+    {
+      "id": "index",
+      "file": "index.json",
+      "tags": ["index", "meta"],
+      "summary": "Ultra-lean 3-layer index: 18 topic pointers + 2 archive refs. Rebuilt 2026-04-01.",
+      "lastUpdated": "2026-04-01",
+      "accessCount": 0,
+      "source": "user-explicit"
+    },
+    {
+      "id": "devrev-product-portfolio-tombstone",
+      "file": "entities/devrev-product-portfolio.md",
+      "tags": ["tombstone"],
+      "summary": "Tombstone. Replaced by 4 split files. See archive for raw data.",
+      "lastUpdated": "2026-04-01",
+      "accessCount": 0,
+      "source": "user-explicit"
+    },
+    {
+      "id": "devrev-case-studies-tombstone",
+      "file": "entities/devrev-customer-case-studies.md",
+      "tags": ["tombstone"],
+      "summary": "Tombstone. Replaced by 4 split files. See archive for raw data.",
+      "lastUpdated": "2026-04-01",
+      "accessCount": 0,
+      "source": "user-explicit"
+    }
+  ],
+  "archive": [
+    {
+      "id": "archive-product-portfolio",
+      "file": "archive/devrev-product-portfolio-raw.md",
+      "note": "Raw crawl 2026-03-31. Superseded by computer-*.md files."
+    },
+    {
+      "id": "archive-case-studies",
+      "file": "archive/devrev-case-studies-raw.md",
+      "note": "Raw crawl 2026-03-31. Superseded by case-studies-*.md files."
+    }
+  ]
+}
