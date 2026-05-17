@@ -1,17 +1,25 @@
-# Customer case studies – Headline metrics
+# Customer Case Studies — Headline Metrics
 
-Source: devrev.ai/customers. 30 case studies. Verified 2026-03-31.
+Source: [your-product-url/customers]. [N] case studies. Verified [date].
 
 ## Top stats by category
 
-**Cost savings**: BILL $4.5M/yr | FOSSA 40% headcount reduction | Binah.ai 20% cost reduction
-**AI resolution**: Tough Trucks 85-90% | BILL 70% | Deepdub 66% | Descope 32-40%
-**Resolution time**: ICICI 95% (48hrs→<2hrs) | ActionIQ 67% | Tough Trucks 64% | Anand Rathi 60% | FOSSA 57% | Descope 54% | Bolt 40%
-**Efficiency**: Skedulo 6x | Fame 10+ hrs saved/user/week | Skedulo overhead 30%→5%
-**Scale**: Descope 10M→300M sessions same team | Deepdub 10K+ users lean team
-**CSAT/Retention**: LuxCreo ~100% | Bolt 25% retention increase | Tough Trucks 30% CSAT increase
-**Migration speed**: Uniphore 16K tickets in 6 hrs | Bolt 200K tickets in 2 weeks | Tough Trucks 2-hr implementation
-**Product quality**: Rocketium test coverage 20%→60%+ | Bolt 35% faster delivery | Bajaj Finserv KYC 20s→7s
+**Cost savings**: [Customer A] $X/yr | [Customer B] Y% headcount reduction | [Customer C] Z% cost reduction
 
-## All 30 customers
-BILL, Bolt, Phenom, Bajaj Finserv, ICICI Prudential, Aditya Birla Capital, Anand Rathi, L&T Financial, Jar, Descope, FOSSA, ActionIQ, 100ms, Rocketium, Pixee, Orum, Pebl, Skedulo, Fame, Uniphore, Singulr AI, GoodMeetings, Deepdub, ShemarooMe, Shipsy, Tough Trucks, Binah.ai, LuxCreo, Spintly, C-Data, Atomicwork
+**AI / automation resolution**: [Customer A] X% | [Customer B] Y% | [Customer C] Z%
+
+**Resolution time**: [Customer A] X% faster | [Customer B] Y% (from Z hrs to <W hrs) | [Customer C] A% faster
+
+**Efficiency**: [Customer A] Bx efficiency gain | [Customer B] C hrs saved/user/week
+
+**Scale**: [Customer A] from X to Y [volume] with same team size
+
+**CSAT / Retention**: [Customer A] ~X% CSAT | [Customer B] Y% retention increase | [Customer C] Z% CSAT increase
+
+**Migration speed**: [Customer A] X tickets migrated in Y hrs | [Customer B] Z tickets in W weeks
+
+**Product quality**: [Customer A] test coverage X%→Y% | [Customer B] Z% faster delivery
+
+## All [N] customers
+
+[List all customer names here — e.g., Customer A, Customer B, Customer C, ...]

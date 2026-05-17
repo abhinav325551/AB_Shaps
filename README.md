@@ -1,6 +1,6 @@
-# AB_Shaps – My Claude Code Setup
+# AB_Shaps – PMM Claude Code Template
 
-A public reference for how I've set up Claude Code as a product marketing toolkit — including custom PMM skills, a 3-layer memory architecture, and the plugins that power the workflow.
+A public template for setting up Claude Code as a product marketing toolkit — including custom PMM skills, a 3-layer memory architecture, and the plugins that power the workflow. Fork it, fill in your own product context, and you're running.
 
 ---
 
@@ -8,7 +8,7 @@ A public reference for how I've set up Claude Code as a product marketing toolki
 
 | Folder | What it contains |
 |---|---|
-| [`/skills`](./skills/) | 7 custom skills for product marketing work (messaging, competitive intel, GTM, pricing, etc.) |
+| [`/skills`](./skills/) | 6 custom skills for product marketing work (messaging, competitive intel, GTM, pricing, etc.) |
 | [`/memory`](./memory/) | 3-layer memory architecture: index → topic files → archive |
 | [`/plugins`](./plugins/) | All installed Claude Code plugins with descriptions and use cases |
 | [`/knowledge`](./knowledge/) | How I structure a knowledge folder for grounding Claude in product context |
@@ -36,7 +36,7 @@ Claude Code
 
 ## Skills overview
 
-Seven packaged skills for core PMM work:
+Six packaged skills for core PMM work:
 
 | Skill | Purpose |
 |---|---|
@@ -46,7 +46,6 @@ Seven packaged skills for core PMM work:
 | `customer-research` | ICP, personas, JTBD, VoC, win/loss analysis |
 | `go-to-market` | Launch plans, campaign briefs, timelines, cross-functional GTM |
 | `pricing-packaging` | Pricing models, tier design, value metrics, pricing page guidance |
-| `devrev` | DevRev MCP integration — manage tickets, issues, and opportunities via Claude |
 
 → Full details in [`/skills`](./skills/)
 
@@ -94,7 +93,7 @@ Or point your `CLAUDE.md` at this repo's skills folder.
 ### 2. Set up the memory structure
 
 ```bash
-mkdir -p ~/.devrev-computer/memory/{entities,preferences,environment,archive}
+mkdir -p ~/.claude/memory/{entities,preferences,environment,archive}
 # Then copy and customize the files in /memory
 ```
 
@@ -121,4 +120,3 @@ See [`/knowledge`](./knowledge/) for how to structure your product/market contex
 
 - Skills use `.agents/product-marketing-context.md` as shared context — run `product-marketing-context` skill first before the others.
 - Memory files use bullet points, not paragraphs — keeps files small and retrieval fast.
-- The `devrev` skill requires the DevRev MCP server to be configured in your Claude settings.

@@ -12,10 +12,10 @@ memory/
 ├── me.md                               # Your profile and work context
 ├── top-of-my-mind.md                   # Minimal session context (intentionally sparse)
 ├── entities/                           # Layer 2 – topic files: products, people, projects
-│   ├── computer-platform.md
-│   ├── computer-apps.md
-│   ├── computer-positioning.md
-│   ├── computer-pricing.md
+│   ├── product-platform.md
+│   ├── product-apps.md
+│   ├── product-positioning.md
+│   ├── product-pricing.md
 │   ├── case-studies-headline-metrics.md
 │   ├── case-studies-by-industry.md
 │   ├── case-studies-quotes.md
@@ -32,8 +32,7 @@ memory/
 ├── environment/                        # Layer 2 – topic files: machine and tools
 │   └── machine.md
 └── archive/                            # Layer 3 – raw source data
-    ├── devrev-product-portfolio-raw.md
-    └── devrev-case-studies-raw.md
+    └── [your-product-raw-crawl].md     # populated when you run your first crawl
 ```
 
 ---
@@ -52,10 +51,10 @@ Tombstone entries point to superseded files so nothing breaks if something refer
 
 ```json
 {
-  "id": "computer-platform",
-  "file": "entities/computer-platform.md",
+  "id": "product-platform",
+  "file": "entities/product-platform.md",
   "tags": ["product", "technical"],
-  "summary": "AirSync, Memory, Search, Agent Studio – technical architecture."
+  "summary": "[YourProduct] technical architecture – core platform, integrations, key features."
 }
 ```
 
@@ -78,11 +77,11 @@ Organized into three folders:
 - Each file covers one topic only
 - Large knowledge blobs (e.g. full case study database, product portfolio) are split into 4 focused files for faster retrieval
 
-**Example split:** The original `devrev-product-portfolio.md` was one large file. It was split into:
-- `computer-platform.md` — technical architecture
-- `computer-apps.md` — apps and use cases
-- `computer-positioning.md` — messaging and positioning
-- `computer-pricing.md` — pricing tiers
+**Example split:** A large product portfolio file can be split into focused sub-files:
+- `product-platform.md` — technical architecture
+- `product-apps.md` — apps and use cases
+- `product-positioning.md` — messaging and positioning
+- `product-pricing.md` — pricing tiers
 
 The original file becomes a tombstone pointing to the new files.
 
@@ -129,7 +128,7 @@ The discipline here is important: keeping this file lean means it doesn't pollut
 ## How to adapt this for your setup
 
 1. Replace `me.md` with your own profile.
-2. Replace the `entities/computer-*.md` and `entities/case-studies-*.md` files with your product's equivalent.
+2. Replace the `entities/product-*.md` and `entities/case-studies-*.md` files with your product's equivalent.
 3. Replace `preferences/brand-*.md` with your company's brand guidelines.
 4. Update `preferences/skills-folder.md` with your skills directory path.
 5. Update `environment/machine.md` with your machine specs.

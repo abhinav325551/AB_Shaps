@@ -1,21 +1,21 @@
-# Competitor migration stories
+# Competitor Migration Stories
 
-Source: devrev.ai/customers. Verified 2026-03-31.
+Source: [your-product-url/customers]. Verified [date].
 
-## From Zendesk
-- **Bolt** – 200K tickets + 800 articles in 2 weeks. Now: 40% faster resolution, 25% retention increase.
-- **FOSSA** – 10K tickets. Now: 57% faster, 40% cost reduction. "We evaluated our legacy vendor's AI and it was difficult to get them to engage."
-- **Binah.ai** – Seamless via AirSync. Now: 50% faster response, 20% cost reduction.
+## From [Competitor A — e.g., Zendesk]
+- **[Customer A]** – [Volume migrated, timeline — e.g., 200K tickets + 800 articles in 2 weeks]. Now: [key outcomes — e.g., 40% faster resolution, 25% retention increase].
+- **[Customer B]** – [Volume migrated]. Now: [key outcomes]. "[Optional direct quote.]"
+- **[Customer C]** – [Migration method]. Now: [key outcomes].
 
-## From Salesforce Service Cloud
-- **Skedulo** – AirSync migration, no added costs. Now: 6x efficiency, overhead 30%→5%.
+## From [Competitor B — e.g., Salesforce Service Cloud]
+- **[Customer D]** – [Migration method — e.g., via data sync tool, no added costs]. Now: [key outcomes].
 
-## From HelpScout/Intercom
-- **Tough Trucks** – 2-hour implementation. Now: 85-90% AI resolution, 64% faster, 30% CSAT increase.
+## From [Competitor C — e.g., HelpScout / Intercom]
+- **[Customer E]** – [Implementation time]. Now: [key outcomes].
 
-## From legacy/other
-- **Uniphore** – 16K tickets + 72K comments in 6 hours. "That is the holy grail."
-- **Pebl** – 1M tickets + 600 macros transferred. "Objectively better than anything I've seen."
+## From [Legacy / other]
+- **[Customer F]** – [Volume migrated, timeline]. "[Quote about the migration experience.]"
+- **[Customer G]** – [Volume migrated]. "[Quote about product quality.]"
 
-## Products used across all case studies
-Computer: BILL, Fame, Bolt, Shipsy, Atomicwork, Deepdub | AirSync: Bolt, Phenom, Uniphore, Skedulo, FOSSA, Pebl, Tough Trucks | CX Agent: Descope, FOSSA, Deepdub, Bolt | Observe: Bajaj Finserv, ICICI, Aditya Birla, L&T, Jar, ShemarooMe, Anand Rathi | Support App: Phenom, Skedulo, Pebl, Binah.ai, C-Data, Orum, Pixee, Spintly, GoodMeetings, Singulr AI
+## Products / features used across case studies
+[Feature 1]: [Customer A], [Customer B] | [Feature 2]: [Customer C], [Customer D], [Customer E] | [Feature 3]: [Customer F], [Customer G]

@@ -1,6 +1,6 @@
 # Skills
 
-Seven custom Claude skills for product marketing work. These live in `.claude/skills` and share a common context file at `.agents/product-marketing-context.md`.
+Six custom Claude skills for product marketing work. These live in `.claude/skills` and share a common context file at `.agents/product-marketing-context.md`.
 
 ---
 
@@ -14,7 +14,6 @@ Seven custom Claude skills for product marketing work. These live in `.claude/sk
 | `customer-research` | [`customer-research/SKILL.md`](./customer-research/SKILL.md) | ICP, personas, JTBD, VoC, win/loss analysis |
 | `go-to-market` | [`go-to-market/SKILL.md`](./go-to-market/SKILL.md) | Launch plans, campaign briefs, timelines, cross-functional GTM |
 | `pricing-packaging` | [`pricing-packaging/SKILL.md`](./pricing-packaging/SKILL.md) | Pricing models, packaging tiers, value metrics, pricing page guidance |
-| `devrev` | [`devrev/SKILL.md`](./devrev/SKILL.md) | DevRev MCP — manage tickets, issues, and opportunities via Claude |
 
 ---
 
@@ -85,14 +84,3 @@ All skills read `.agents/product-marketing-context.md` before asking questions. 
 - GTM motion and key metrics
 
 **Run `product-marketing-context` first.** Every other skill will be faster and more accurate because of it.
-
----
-
-## The DevRev skill
-
-The `devrev` skill is separate from the PMM skills — it wraps the DevRev MCP server for ticket/issue/opportunity management. Requires:
-
-1. DevRev MCP server configured in Claude Code settings
-2. A valid DevRev API token
-
-See [`devrev/SKILL.md`](./devrev/SKILL.md) for full usage.

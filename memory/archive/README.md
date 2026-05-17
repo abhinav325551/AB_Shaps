@@ -25,7 +25,7 @@ Raw, unprocessed source data from crawls or large document imports.
 
 | File | Source | Date | Superseded by |
 |---|---|---|---|
-| `devrev-product-portfolio-raw.md` | devrev.ai product pages crawl | 2026-03-31 | `entities/computer-platform.md`, `computer-apps.md`, `computer-positioning.md`, `computer-pricing.md` |
-| `devrev-case-studies-raw.md` | devrev.ai/customers crawl | 2026-03-31 | `entities/case-studies-*.md` (4 files) |
+| `[your-product]-raw.md` | [your-product-url] crawl | [date] | `entities/product-platform.md`, `product-apps.md`, `product-positioning.md`, `product-pricing.md` |
+| `[your-customers]-raw.md` | [your-product-url/customers] crawl | [date] | `entities/case-studies-*.md` (4 files) |
 
 > The raw archive files are not included in this public repo. Add your own when you run your first product crawl.
